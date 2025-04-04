@@ -41,6 +41,8 @@ if (isset($_POST['Submit'])) {
     <input type="password" name="Password" placeholder="Password" required minlength="3">
     <button type="submit" name="Submit">Sign in</button>
 </form>
+    <a href="register.php">Don't have an account? Register here</a>
+
 <?php if (isset($error)) echo "<p style='color:red;'>$error</p>"; ?>
 </body>
 </html>
